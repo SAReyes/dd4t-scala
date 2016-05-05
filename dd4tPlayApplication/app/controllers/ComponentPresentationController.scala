@@ -12,6 +12,6 @@ import play.api.mvc._
 class ComponentPresentationController @Inject() extends Controller {
 
   def componentPresentation = Action {
-   Ok("Not Implemented")
+    NotImplemented("Not Implemented")
   }
 }

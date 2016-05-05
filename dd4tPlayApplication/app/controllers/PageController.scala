@@ -12,6 +12,6 @@ import play.api.mvc._
 class PageController @Inject() extends Controller {
 
   def page(page: String) = Action {
-   Ok("Not Implemented")
+   NotImplemented("Not Implemented")
   }
 }
