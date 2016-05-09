@@ -3,7 +3,6 @@ package controllers
 import javax.inject._
 
 import org.example.Person
-import play.api._
 import play.api.mvc._
 
 /**
@@ -19,9 +18,11 @@ class HomeController @Inject() extends Controller {
    * will be called when the application receives a `GET` request with
    * a path of `/`.
    */
+  /*
   def index = Action {
     Ok(views.html.index("Your new application is ready."))
   }
+  */
 
   def hello() = Action {
     Ok(Person("Scala").hello())

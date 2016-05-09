@@ -7,7 +7,8 @@ import scala.io.Source
   */
 object FileDB extends DB {
   override def getPageByPath(path: String) = {
-    val jsonPath = "/brokerjson/" + path.replace(".html", ".json")
+    val jsonPath = String.format("/brokerjson/%s.json",
+      path.replaceAll(".html", ""))
     val stream = getClass.getResourceAsStream(jsonPath)
     Source.fromInputStream(stream).mkString
   }
