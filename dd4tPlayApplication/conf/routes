@@ -13,3 +13,5 @@ GET        /hello               controllers.HomeController.hello
 
 # Map static resources from the /public folder to the /assets URL path
 GET        /assets/*file        controllers.Assets.versioned(path="/public", file: Asset)
+
+GET        /pages/*page              controllers.PageController.page(page: String)

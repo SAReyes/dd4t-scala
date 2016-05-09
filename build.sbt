@@ -8,7 +8,7 @@ lazy val commonSettings = Seq(
 
 lazy val dd4tScala = (project in file("."))
   .settings(commonSettings: _*)
-  .aggregate(dd4tPlayApplication, dd4tLibrary)
+  .aggregate(dd4tPlayApplication, dd4tLibrary, db, json)
 
 lazy val dd4tPlayApplication = (project in file("dd4tPlayApplication"))
   .enablePlugins(PlayScala)
@@ -17,5 +17,14 @@ lazy val dd4tPlayApplication = (project in file("dd4tPlayApplication"))
 
 lazy val dd4tLibrary = (project in file("dd4tLibrary"))
   .settings(commonSettings: _*)
+
+lazy val db = (project in file("db"))
+  .settings(commonSettings: _*)
+
+lazy val json = (project in file("json"))
+  .settings(commonSettings: _*)
+
+
+run in Compile <<= (run in Compile in dd4tPlayApplication)
 
 run in Compile <<= (run in Compile in dd4tPlayApplication)

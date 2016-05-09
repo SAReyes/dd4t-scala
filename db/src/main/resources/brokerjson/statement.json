@@ -1,0 +1,1316 @@
+{
+  "RevisionDate" : "2016-04-15T16:24:24",
+  "Filename" : "sf-statement",
+  "LastPublishedDate" : "0001-01-01T00:00:00",
+  "PageTemplate" : {
+    "FileExtension" : "html",
+    "RevisionDate" : "2016-03-17T09:54:44.493",
+    "MetadataFields" : {
+      "viewName" : {
+        "Name" : "viewName",
+        "Values" : ["main"],
+        "NumericValues" : [],
+        "DateTimeValues" : [],
+        "LinkedComponentValues" : [],
+        "FieldType" : 0,
+        "KeywordValues" : []
+      }
+    },
+    "Folder" : {
+      "PublicationId" : "tcm:0-70-1",
+      "Id" : "tcm:70-6119-2",
+      "Title" : "Page Templates"
+    },
+    "Publication" : {
+      "Id" : "tcm:0-70-1",
+      "Title" : "500 adidas site COM"
+    },
+    "OwningPublication" : {
+      "Id" : "tcm:0-6-1",
+      "Title" : "200 Master Design"
+    },
+    "Id" : "tcm:70-86439-128",
+    "Title" : "Campaign"
+  },
+  "Schema" : {
+    "Folder" : {
+      "PublicationId" : "tcm:0-70-1",
+      "Id" : "tcm:70-6122-2",
+      "Title" : "Metadata"
+    },
+    "RootElementName" : "undefined",
+    "Publication" : {
+      "Id" : "tcm:0-70-1",
+      "Title" : "500 adidas site COM"
+    },
+    "Id" : "tcm:70-86415-8",
+    "Title" : "Page / Structure Group Metadata"
+  },
+  "MetadataFields" : {
+    "title" : {
+      "Name" : "title",
+      "Values" : ["Page Title"],
+      "NumericValues" : [],
+      "DateTimeValues" : [],
+      "LinkedComponentValues" : [],
+      "FieldType" : 0,
+      "XPath" : "Metadata/custom:title",
+      "KeywordValues" : []
+    },
+    "analytics_data" : {
+      "Name" : "analytics_data",
+      "Values" : [],
+      "NumericValues" : [],
+      "DateTimeValues" : [],
+      "LinkedComponentValues" : [],
+      "EmbeddedValues" : [{
+        "page_name" : {
+          "Name" : "page_name",
+          "Values" : ["Page Name"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:page_name",
+          "KeywordValues" : []
+        },
+        "campaign_name" : {
+          "Name" : "campaign_name",
+          "Values" : ["Campaign Name"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:campaign_name",
+          "KeywordValues" : []
+        },
+        "page_category" : {
+          "Name" : "page_category",
+          "Values" : ["Page Category"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:page_category",
+          "KeywordValues" : []
+        },
+        "page_type" : {
+          "Name" : "page_type",
+          "Values" : ["Page Type"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:page_type",
+          "KeywordValues" : []
+        },
+        "product_brand" : {
+          "Name" : "product_brand",
+          "Values" : ["Product Brand"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:product_brand",
+          "KeywordValues" : []
+        },
+        "product_category" : {
+          "Name" : "product_category",
+          "Values" : ["Product Category"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:product_category",
+          "KeywordValues" : []
+        },
+        "product_collection" : {
+          "Name" : "product_collection",
+          "Values" : ["Product Collection"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:product_collection",
+          "KeywordValues" : []
+        },
+        "product_gender" : {
+          "Name" : "product_gender",
+          "Values" : ["Product Gender"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:product_gender",
+          "KeywordValues" : []
+        },
+        "product_sport" : {
+          "Name" : "product_sport",
+          "Values" : ["Product Sport"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:product_sport",
+          "KeywordValues" : []
+        },
+        "product_type" : {
+          "Name" : "product_type",
+          "Values" : ["Product Type"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:product_type",
+          "KeywordValues" : []
+        },
+        "site_owner" : {
+          "Name" : "site_owner",
+          "Values" : ["Site Owner"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:site_owner",
+          "KeywordValues" : []
+        },
+        "site_name" : {
+          "Name" : "site_name",
+          "Values" : ["Site Namespace"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:analytics_data[1]/custom:site_name",
+          "KeywordValues" : []
+        }
+      }
+      ],
+      "EmbeddedSchema" : {
+        "Folder" : {
+          "PublicationId" : "tcm:0-70-1",
+          "Id" : "tcm:70-6056-2",
+          "Title" : "Embedded"
+        },
+        "RootElementName" : "AnalyticsContent",
+        "Publication" : {
+          "Id" : "tcm:0-70-1",
+          "Title" : "500 adidas site COM"
+        },
+        "Id" : "tcm:70-86413-8",
+        "Title" : "Analytics Data"
+      },
+      "FieldType" : 4,
+      "XPath" : "Metadata/custom:analytics_data",
+      "KeywordValues" : []
+    },
+    "seo_data" : {
+      "Name" : "seo_data",
+      "Values" : [],
+      "NumericValues" : [],
+      "DateTimeValues" : [],
+      "LinkedComponentValues" : [],
+      "EmbeddedValues" : [{
+        "seo_title" : {
+          "Name" : "seo_title",
+          "Values" : ["SEO Meta Tilte"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:seo_data[1]/custom:seo_title",
+          "KeywordValues" : []
+        },
+        "seo_meta_keywords" : {
+          "Name" : "seo_meta_keywords",
+          "Values" : ["SEO Meta Keyword"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "XPath" : "Metadata/custom:seo_data[1]/custom:seo_meta_keywords",
+          "KeywordValues" : []
+        }
+      }
+      ],
+      "EmbeddedSchema" : {
+        "Folder" : {
+          "PublicationId" : "tcm:0-70-1",
+          "Id" : "tcm:70-6056-2",
+          "Title" : "Embedded"
+        },
+        "RootElementName" : "SEOMetadataContent",
+        "Publication" : {
+          "Id" : "tcm:0-70-1",
+          "Title" : "500 adidas site COM"
+        },
+        "Id" : "tcm:70-86414-8",
+        "Title" : "SEO Metadata"
+      },
+      "FieldType" : 4,
+      "XPath" : "Metadata/custom:seo_data",
+      "KeywordValues" : []
+    }
+  },
+  "ComponentPresentations" : [{
+    "Component" : {
+      "LastPublishedDate" : "0001-01-01T00:00:00",
+      "RevisionDate" : "2016-03-28T10:11:45",
+      "Schema" : {
+        "Folder" : {
+          "PublicationId" : "tcm:0-70-1",
+          "Id" : "tcm:70-6055-2",
+          "Title" : "Core"
+        },
+        "RootElementName" : "Content",
+        "Publication" : {
+          "Id" : "tcm:0-70-1",
+          "Title" : "500 adidas site COM"
+        },
+        "Id" : "tcm:70-86411-8",
+        "Title" : "Core Schema - Statement"
+      },
+      "Fields" : {
+        "head_image" : {
+          "Name" : "head_image",
+          "Values" : ["tcm:70-86768"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [{
+            "LastPublishedDate" : "0001-01-01T00:00:00",
+            "RevisionDate" : "2016-03-28T10:08:59.7",
+            "Schema" : {
+              "Folder" : {
+                "PublicationId" : "tcm:0-70-1",
+                "Id" : "tcm:70-6055-2",
+                "Title" : "Core"
+              },
+              "RootElementName" : "Content",
+              "Publication" : {
+                "Id" : "tcm:0-70-1",
+                "Title" : "500 adidas site COM"
+              },
+              "Id" : "tcm:70-86297-8",
+              "Title" : "Core Schema - Asset"
+            },
+            "Fields" : {
+              "headline" : {
+                "Name" : "headline",
+                "Values" : ["Label text"],
+                "NumericValues" : [],
+                "DateTimeValues" : [],
+                "LinkedComponentValues" : [],
+                "FieldType" : 2,
+                "XPath" : "tcm:Content/custom:Content/custom:headline",
+                "KeywordValues" : []
+              }
+            },
+            "MetadataFields" : {},
+            "ComponentType" : 1,
+            "Folder" : {
+              "PublicationId" : "tcm:0-70-1",
+              "Id" : "tcm:70-6166-2",
+              "Title" : "statement"
+            },
+            "Categories" : [{
+              "Keywords" : [],
+              "Id" : "tcm:70-6084-512",
+              "Title" : "External Video Type"
+            }
+            ],
+            "Version" : 1,
+            "Publication" : {
+              "Id" : "tcm:0-70-1",
+              "Title" : "500 adidas site COM"
+            },
+            "OwningPublication" : {
+              "Id" : "tcm:0-5-1",
+              "Title" : "200 Global Content"
+            },
+            "Id" : "tcm:70-86768",
+            "Title" : "Label Test"
+          }
+          ],
+          "FieldType" : 6,
+          "XPath" : "tcm:Content/custom:Content/custom:head_image",
+          "KeywordValues" : []
+        },
+        "title" : {
+          "Name" : "title",
+          "Values" : ["STATEMENT - BACKGROUND IMG"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:title",
+          "KeywordValues" : []
+        },
+        "statement_text" : {
+          "Name" : "statement_text",
+          "Values" : ["<div xmlns=\"http://www.w3.org/1999/xhtml\">The workout doesn't begin or end with the class.\n<br />\nThe training session isn't restricted to the studio.\n<br />\nLife is the game. The city is your playground</div>"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:statement_text",
+          "KeywordValues" : []
+        },
+        "closing_text" : {
+          "Name" : "closing_text",
+          "Values" : ["Closing text"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:closing_text",
+          "KeywordValues" : []
+        },
+        "background_media" : {
+          "Name" : "background_media",
+          "Values" : ["tcm:70-86451"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [{
+            "LastPublishedDate" : "0001-01-01T00:00:00",
+            "RevisionDate" : "2016-03-16T09:49:36.637",
+            "Schema" : {
+              "Folder" : {
+                "PublicationId" : "tcm:0-70-1",
+                "Id" : "tcm:70-6055-2",
+                "Title" : "Core"
+              },
+              "RootElementName" : "Content",
+              "Publication" : {
+                "Id" : "tcm:0-70-1",
+                "Title" : "500 adidas site COM"
+              },
+              "Id" : "tcm:70-86297-8",
+              "Title" : "Core Schema - Asset"
+            },
+            "Fields" : {
+              "headline" : {
+                "Name" : "headline",
+                "Values" : ["Statement Background Image"],
+                "NumericValues" : [],
+                "DateTimeValues" : [],
+                "LinkedComponentValues" : [],
+                "FieldType" : 2,
+                "XPath" : "tcm:Content/custom:Content/custom:headline",
+                "KeywordValues" : []
+              },
+              "desktop_image" : {
+                "Name" : "desktop_image",
+                "Values" : ["tcm:70-86450"],
+                "NumericValues" : [],
+                "DateTimeValues" : [],
+                "LinkedComponentValues" : [{
+                  "LastPublishedDate" : "0001-01-01T00:00:00",
+                  "RevisionDate" : "2016-03-16T15:03:35.783",
+                  "Schema" : {
+                    "Folder" : {
+                      "PublicationId" : "tcm:0-70-1",
+                      "Id" : "tcm:70-22-2",
+                      "Title" : "System"
+                    },
+                    "RootElementName" : "undefined",
+                    "Publication" : {
+                      "Id" : "tcm:0-70-1",
+                      "Title" : "500 adidas site COM"
+                    },
+                    "Id" : "tcm:70-47-8",
+                    "Title" : "Default Multimedia Schema"
+                  },
+                  "Fields" : {},
+                  "MetadataFields" : {},
+                  "ComponentType" : 0,
+                  "Multimedia" : {
+                    "Url" : "/Images/feature_1920x600_NMD_BG_tcm70-86450.jpg",
+                    "MimeType" : "image/jpeg",
+                    "FileName" : "feature_1920x600_NMD_BG.jpg",
+                    "FileExtension" : "jpg",
+                    "Size" : 195128,
+                    "Width" : 0,
+                    "Height" : 0
+                  },
+                  "Folder" : {
+                    "PublicationId" : "tcm:0-70-1",
+                    "Id" : "tcm:70-6124-2",
+                    "Title" : "statement_qa"
+                  },
+                  "Categories" : [],
+                  "Version" : 2,
+                  "Publication" : {
+                    "Id" : "tcm:0-70-1",
+                    "Title" : "500 adidas site COM"
+                  },
+                  "OwningPublication" : {
+                    "Id" : "tcm:0-5-1",
+                    "Title" : "200 Global Content"
+                  },
+                  "Id" : "tcm:70-86450",
+                  "Title" : "Background Image"
+                }
+                ],
+                "FieldType" : 5,
+                "XPath" : "tcm:Content/custom:Content/custom:desktop_image",
+                "KeywordValues" : []
+              },
+              "tablet_image" : {
+                "Name" : "tablet_image",
+                "Values" : ["tcm:70-86450"],
+                "NumericValues" : [],
+                "DateTimeValues" : [],
+                "LinkedComponentValues" : [{
+                  "LastPublishedDate" : "0001-01-01T00:00:00",
+                  "RevisionDate" : "2016-03-16T15:03:35.783",
+                  "Schema" : {
+                    "Folder" : {
+                      "PublicationId" : "tcm:0-70-1",
+                      "Id" : "tcm:70-22-2",
+                      "Title" : "System"
+                    },
+                    "RootElementName" : "undefined",
+                    "Publication" : {
+                      "Id" : "tcm:0-70-1",
+                      "Title" : "500 adidas site COM"
+                    },
+                    "Id" : "tcm:70-47-8",
+                    "Title" : "Default Multimedia Schema"
+                  },
+                  "Fields" : {},
+                  "MetadataFields" : {},
+                  "ComponentType" : 0,
+                  "Multimedia" : {
+                    "Url" : "/Images/feature_1920x600_NMD_BG_tcm70-86450.jpg",
+                    "MimeType" : "image/jpeg",
+                    "FileName" : "feature_1920x600_NMD_BG.jpg",
+                    "FileExtension" : "jpg",
+                    "Size" : 195128,
+                    "Width" : 0,
+                    "Height" : 0
+                  },
+                  "Folder" : {
+                    "PublicationId" : "tcm:0-70-1",
+                    "Id" : "tcm:70-6124-2",
+                    "Title" : "statement_qa"
+                  },
+                  "Categories" : [],
+                  "Version" : 2,
+                  "Publication" : {
+                    "Id" : "tcm:0-70-1",
+                    "Title" : "500 adidas site COM"
+                  },
+                  "OwningPublication" : {
+                    "Id" : "tcm:0-5-1",
+                    "Title" : "200 Global Content"
+                  },
+                  "Id" : "tcm:70-86450",
+                  "Title" : "Background Image"
+                }
+                ],
+                "FieldType" : 5,
+                "XPath" : "tcm:Content/custom:Content/custom:tablet_image",
+                "KeywordValues" : []
+              },
+              "mobile_image" : {
+                "Name" : "mobile_image",
+                "Values" : ["tcm:70-86450"],
+                "NumericValues" : [],
+                "DateTimeValues" : [],
+                "LinkedComponentValues" : [{
+                  "LastPublishedDate" : "0001-01-01T00:00:00",
+                  "RevisionDate" : "2016-03-16T15:03:35.783",
+                  "Schema" : {
+                    "Folder" : {
+                      "PublicationId" : "tcm:0-70-1",
+                      "Id" : "tcm:70-22-2",
+                      "Title" : "System"
+                    },
+                    "RootElementName" : "undefined",
+                    "Publication" : {
+                      "Id" : "tcm:0-70-1",
+                      "Title" : "500 adidas site COM"
+                    },
+                    "Id" : "tcm:70-47-8",
+                    "Title" : "Default Multimedia Schema"
+                  },
+                  "Fields" : {},
+                  "MetadataFields" : {},
+                  "ComponentType" : 0,
+                  "Multimedia" : {
+                    "Url" : "/Images/feature_1920x600_NMD_BG_tcm70-86450.jpg",
+                    "MimeType" : "image/jpeg",
+                    "FileName" : "feature_1920x600_NMD_BG.jpg",
+                    "FileExtension" : "jpg",
+                    "Size" : 195128,
+                    "Width" : 0,
+                    "Height" : 0
+                  },
+                  "Folder" : {
+                    "PublicationId" : "tcm:0-70-1",
+                    "Id" : "tcm:70-6124-2",
+                    "Title" : "statement_qa"
+                  },
+                  "Categories" : [],
+                  "Version" : 2,
+                  "Publication" : {
+                    "Id" : "tcm:0-70-1",
+                    "Title" : "500 adidas site COM"
+                  },
+                  "OwningPublication" : {
+                    "Id" : "tcm:0-5-1",
+                    "Title" : "200 Global Content"
+                  },
+                  "Id" : "tcm:70-86450",
+                  "Title" : "Background Image"
+                }
+                ],
+                "FieldType" : 5,
+                "XPath" : "tcm:Content/custom:Content/custom:mobile_image",
+                "KeywordValues" : []
+              }
+            },
+            "MetadataFields" : {},
+            "ComponentType" : 1,
+            "Folder" : {
+              "PublicationId" : "tcm:0-70-1",
+              "Id" : "tcm:70-6124-2",
+              "Title" : "statement_qa"
+            },
+            "Categories" : [{
+              "Keywords" : [],
+              "Id" : "tcm:70-6084-512",
+              "Title" : "External Video Type"
+            }
+            ],
+            "Version" : 1,
+            "Publication" : {
+              "Id" : "tcm:0-70-1",
+              "Title" : "500 adidas site COM"
+            },
+            "OwningPublication" : {
+              "Id" : "tcm:0-5-1",
+              "Title" : "200 Global Content"
+            },
+            "Id" : "tcm:70-86451",
+            "Title" : "Asset Background Image"
+          }
+          ],
+          "FieldType" : 6,
+          "XPath" : "tcm:Content/custom:Content/custom:background_media",
+          "KeywordValues" : []
+        }
+      },
+      "MetadataFields" : {},
+      "ComponentType" : 1,
+      "Folder" : {
+        "PublicationId" : "tcm:0-70-1",
+        "Id" : "tcm:70-6166-2",
+        "Title" : "statement"
+      },
+      "Categories" : [],
+      "Version" : 3,
+      "Publication" : {
+        "Id" : "tcm:0-70-1",
+        "Title" : "500 adidas site COM"
+      },
+      "OwningPublication" : {
+        "Id" : "tcm:0-5-1",
+        "Title" : "200 Global Content"
+      },
+      "Id" : "tcm:70-86769",
+      "Title" : "Statement - Background Image"
+    },
+    "ComponentTemplate" : {
+      "OutputFormat" : "HTML Fragment",
+      "RevisionDate" : "2016-04-07T12:09:24.307",
+      "MetadataFields" : {
+        "viewName" : {
+          "Name" : "viewName",
+          "Values" : ["statement/statement_center"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "KeywordValues" : []
+        },
+        "region" : {
+          "Name" : "region",
+          "Values" : ["main"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "KeywordValues" : []
+        }
+      },
+      "Folder" : {
+        "PublicationId" : "tcm:0-70-1",
+        "Id" : "tcm:70-6125-2",
+        "Title" : "Statement"
+      },
+      "Publication" : {
+        "Id" : "tcm:0-70-1",
+        "Title" : "500 adidas site COM"
+      },
+      "OwningPublication" : {
+        "Id" : "tcm:0-6-1",
+        "Title" : "200 Master Design"
+      },
+      "Id" : "tcm:70-86473-32",
+      "Title" : "Statement - Text Center"
+    },
+    "IsDynamic" : false,
+    "OrderOnPage" : 0
+  }, {
+    "Component" : {
+      "LastPublishedDate" : "0001-01-01T00:00:00",
+      "RevisionDate" : "2016-03-28T10:08:59",
+      "Schema" : {
+        "Folder" : {
+          "PublicationId" : "tcm:0-70-1",
+          "Id" : "tcm:70-6055-2",
+          "Title" : "Core"
+        },
+        "RootElementName" : "Content",
+        "Publication" : {
+          "Id" : "tcm:0-70-1",
+          "Title" : "500 adidas site COM"
+        },
+        "Id" : "tcm:70-86411-8",
+        "Title" : "Core Schema - Statement"
+      },
+      "Fields" : {
+        "title" : {
+          "Name" : "title",
+          "Values" : ["STATEMENT - NO BACKGROUND IMG"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:title",
+          "KeywordValues" : []
+        },
+        "statement_text" : {
+          "Name" : "statement_text",
+          "Values" : ["<div xmlns=\"http://www.w3.org/1999/xhtml\">The workout doesn't begin or end with the class.</div><div xmlns=\"http://www.w3.org/1999/xhtml\">The training session isn't restricted to the studio.</div><div xmlns=\"http://www.w3.org/1999/xhtml\">Life is the game. The city is your playground</div>"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:statement_text",
+          "KeywordValues" : []
+        },
+        "closing_text" : {
+          "Name" : "closing_text",
+          "Values" : ["Closing text"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:closing_text",
+          "KeywordValues" : []
+        }
+      },
+      "MetadataFields" : {},
+      "ComponentType" : 1,
+      "Folder" : {
+        "PublicationId" : "tcm:0-70-1",
+        "Id" : "tcm:70-6166-2",
+        "Title" : "statement"
+      },
+      "Categories" : [],
+      "Version" : 1,
+      "Publication" : {
+        "Id" : "tcm:0-70-1",
+        "Title" : "500 adidas site COM"
+      },
+      "OwningPublication" : {
+        "Id" : "tcm:0-5-1",
+        "Title" : "200 Global Content"
+      },
+      "Id" : "tcm:70-86770",
+      "Title" : "Statement - No Background Image"
+    },
+    "ComponentTemplate" : {
+      "OutputFormat" : "HTML Fragment",
+      "RevisionDate" : "2016-04-07T12:09:24.307",
+      "MetadataFields" : {
+        "viewName" : {
+          "Name" : "viewName",
+          "Values" : ["statement/statement_center"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "KeywordValues" : []
+        },
+        "region" : {
+          "Name" : "region",
+          "Values" : ["main"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "KeywordValues" : []
+        }
+      },
+      "Folder" : {
+        "PublicationId" : "tcm:0-70-1",
+        "Id" : "tcm:70-6125-2",
+        "Title" : "Statement"
+      },
+      "Publication" : {
+        "Id" : "tcm:0-70-1",
+        "Title" : "500 adidas site COM"
+      },
+      "OwningPublication" : {
+        "Id" : "tcm:0-6-1",
+        "Title" : "200 Master Design"
+      },
+      "Id" : "tcm:70-86473-32",
+      "Title" : "Statement - Text Center"
+    },
+    "IsDynamic" : false,
+    "OrderOnPage" : 0
+  }, {
+    "Component" : {
+      "LastPublishedDate" : "0001-01-01T00:00:00",
+      "RevisionDate" : "2016-03-28T10:11:45",
+      "Schema" : {
+        "Folder" : {
+          "PublicationId" : "tcm:0-70-1",
+          "Id" : "tcm:70-6055-2",
+          "Title" : "Core"
+        },
+        "RootElementName" : "Content",
+        "Publication" : {
+          "Id" : "tcm:0-70-1",
+          "Title" : "500 adidas site COM"
+        },
+        "Id" : "tcm:70-86411-8",
+        "Title" : "Core Schema - Statement"
+      },
+      "Fields" : {
+        "head_image" : {
+          "Name" : "head_image",
+          "Values" : ["tcm:70-86768"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [{
+            "LastPublishedDate" : "0001-01-01T00:00:00",
+            "RevisionDate" : "2016-03-28T10:08:59.7",
+            "Schema" : {
+              "Folder" : {
+                "PublicationId" : "tcm:0-70-1",
+                "Id" : "tcm:70-6055-2",
+                "Title" : "Core"
+              },
+              "RootElementName" : "Content",
+              "Publication" : {
+                "Id" : "tcm:0-70-1",
+                "Title" : "500 adidas site COM"
+              },
+              "Id" : "tcm:70-86297-8",
+              "Title" : "Core Schema - Asset"
+            },
+            "Fields" : {
+              "headline" : {
+                "Name" : "headline",
+                "Values" : ["Label text"],
+                "NumericValues" : [],
+                "DateTimeValues" : [],
+                "LinkedComponentValues" : [],
+                "FieldType" : 2,
+                "XPath" : "tcm:Content/custom:Content/custom:headline",
+                "KeywordValues" : []
+              }
+            },
+            "MetadataFields" : {},
+            "ComponentType" : 1,
+            "Folder" : {
+              "PublicationId" : "tcm:0-70-1",
+              "Id" : "tcm:70-6166-2",
+              "Title" : "statement"
+            },
+            "Categories" : [{
+              "Keywords" : [],
+              "Id" : "tcm:70-6084-512",
+              "Title" : "External Video Type"
+            }
+            ],
+            "Version" : 1,
+            "Publication" : {
+              "Id" : "tcm:0-70-1",
+              "Title" : "500 adidas site COM"
+            },
+            "OwningPublication" : {
+              "Id" : "tcm:0-5-1",
+              "Title" : "200 Global Content"
+            },
+            "Id" : "tcm:70-86768",
+            "Title" : "Label Test"
+          }
+          ],
+          "FieldType" : 6,
+          "XPath" : "tcm:Content/custom:Content/custom:head_image",
+          "KeywordValues" : []
+        },
+        "title" : {
+          "Name" : "title",
+          "Values" : ["STATEMENT - BACKGROUND IMG"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:title",
+          "KeywordValues" : []
+        },
+        "statement_text" : {
+          "Name" : "statement_text",
+          "Values" : ["<div xmlns=\"http://www.w3.org/1999/xhtml\">The workout doesn't begin or end with the class.\n<br />\nThe training session isn't restricted to the studio.\n<br />\nLife is the game. The city is your playground</div>"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:statement_text",
+          "KeywordValues" : []
+        },
+        "closing_text" : {
+          "Name" : "closing_text",
+          "Values" : ["Closing text"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:closing_text",
+          "KeywordValues" : []
+        },
+        "background_media" : {
+          "Name" : "background_media",
+          "Values" : ["tcm:70-86451"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [{
+            "LastPublishedDate" : "0001-01-01T00:00:00",
+            "RevisionDate" : "2016-03-16T09:49:36.637",
+            "Schema" : {
+              "Folder" : {
+                "PublicationId" : "tcm:0-70-1",
+                "Id" : "tcm:70-6055-2",
+                "Title" : "Core"
+              },
+              "RootElementName" : "Content",
+              "Publication" : {
+                "Id" : "tcm:0-70-1",
+                "Title" : "500 adidas site COM"
+              },
+              "Id" : "tcm:70-86297-8",
+              "Title" : "Core Schema - Asset"
+            },
+            "Fields" : {
+              "headline" : {
+                "Name" : "headline",
+                "Values" : ["Statement Background Image"],
+                "NumericValues" : [],
+                "DateTimeValues" : [],
+                "LinkedComponentValues" : [],
+                "FieldType" : 2,
+                "XPath" : "tcm:Content/custom:Content/custom:headline",
+                "KeywordValues" : []
+              },
+              "desktop_image" : {
+                "Name" : "desktop_image",
+                "Values" : ["tcm:70-86450"],
+                "NumericValues" : [],
+                "DateTimeValues" : [],
+                "LinkedComponentValues" : [{
+                  "LastPublishedDate" : "0001-01-01T00:00:00",
+                  "RevisionDate" : "2016-03-16T15:03:35.783",
+                  "Schema" : {
+                    "Folder" : {
+                      "PublicationId" : "tcm:0-70-1",
+                      "Id" : "tcm:70-22-2",
+                      "Title" : "System"
+                    },
+                    "RootElementName" : "undefined",
+                    "Publication" : {
+                      "Id" : "tcm:0-70-1",
+                      "Title" : "500 adidas site COM"
+                    },
+                    "Id" : "tcm:70-47-8",
+                    "Title" : "Default Multimedia Schema"
+                  },
+                  "Fields" : {},
+                  "MetadataFields" : {},
+                  "ComponentType" : 0,
+                  "Multimedia" : {
+                    "Url" : "/Images/feature_1920x600_NMD_BG_tcm70-86450.jpg",
+                    "MimeType" : "image/jpeg",
+                    "FileName" : "feature_1920x600_NMD_BG.jpg",
+                    "FileExtension" : "jpg",
+                    "Size" : 195128,
+                    "Width" : 0,
+                    "Height" : 0
+                  },
+                  "Folder" : {
+                    "PublicationId" : "tcm:0-70-1",
+                    "Id" : "tcm:70-6124-2",
+                    "Title" : "statement_qa"
+                  },
+                  "Categories" : [],
+                  "Version" : 2,
+                  "Publication" : {
+                    "Id" : "tcm:0-70-1",
+                    "Title" : "500 adidas site COM"
+                  },
+                  "OwningPublication" : {
+                    "Id" : "tcm:0-5-1",
+                    "Title" : "200 Global Content"
+                  },
+                  "Id" : "tcm:70-86450",
+                  "Title" : "Background Image"
+                }
+                ],
+                "FieldType" : 5,
+                "XPath" : "tcm:Content/custom:Content/custom:desktop_image",
+                "KeywordValues" : []
+              },
+              "tablet_image" : {
+                "Name" : "tablet_image",
+                "Values" : ["tcm:70-86450"],
+                "NumericValues" : [],
+                "DateTimeValues" : [],
+                "LinkedComponentValues" : [{
+                  "LastPublishedDate" : "0001-01-01T00:00:00",
+                  "RevisionDate" : "2016-03-16T15:03:35.783",
+                  "Schema" : {
+                    "Folder" : {
+                      "PublicationId" : "tcm:0-70-1",
+                      "Id" : "tcm:70-22-2",
+                      "Title" : "System"
+                    },
+                    "RootElementName" : "undefined",
+                    "Publication" : {
+                      "Id" : "tcm:0-70-1",
+                      "Title" : "500 adidas site COM"
+                    },
+                    "Id" : "tcm:70-47-8",
+                    "Title" : "Default Multimedia Schema"
+                  },
+                  "Fields" : {},
+                  "MetadataFields" : {},
+                  "ComponentType" : 0,
+                  "Multimedia" : {
+                    "Url" : "/Images/feature_1920x600_NMD_BG_tcm70-86450.jpg",
+                    "MimeType" : "image/jpeg",
+                    "FileName" : "feature_1920x600_NMD_BG.jpg",
+                    "FileExtension" : "jpg",
+                    "Size" : 195128,
+                    "Width" : 0,
+                    "Height" : 0
+                  },
+                  "Folder" : {
+                    "PublicationId" : "tcm:0-70-1",
+                    "Id" : "tcm:70-6124-2",
+                    "Title" : "statement_qa"
+                  },
+                  "Categories" : [],
+                  "Version" : 2,
+                  "Publication" : {
+                    "Id" : "tcm:0-70-1",
+                    "Title" : "500 adidas site COM"
+                  },
+                  "OwningPublication" : {
+                    "Id" : "tcm:0-5-1",
+                    "Title" : "200 Global Content"
+                  },
+                  "Id" : "tcm:70-86450",
+                  "Title" : "Background Image"
+                }
+                ],
+                "FieldType" : 5,
+                "XPath" : "tcm:Content/custom:Content/custom:tablet_image",
+                "KeywordValues" : []
+              },
+              "mobile_image" : {
+                "Name" : "mobile_image",
+                "Values" : ["tcm:70-86450"],
+                "NumericValues" : [],
+                "DateTimeValues" : [],
+                "LinkedComponentValues" : [{
+                  "LastPublishedDate" : "0001-01-01T00:00:00",
+                  "RevisionDate" : "2016-03-16T15:03:35.783",
+                  "Schema" : {
+                    "Folder" : {
+                      "PublicationId" : "tcm:0-70-1",
+                      "Id" : "tcm:70-22-2",
+                      "Title" : "System"
+                    },
+                    "RootElementName" : "undefined",
+                    "Publication" : {
+                      "Id" : "tcm:0-70-1",
+                      "Title" : "500 adidas site COM"
+                    },
+                    "Id" : "tcm:70-47-8",
+                    "Title" : "Default Multimedia Schema"
+                  },
+                  "Fields" : {},
+                  "MetadataFields" : {},
+                  "ComponentType" : 0,
+                  "Multimedia" : {
+                    "Url" : "/Images/feature_1920x600_NMD_BG_tcm70-86450.jpg",
+                    "MimeType" : "image/jpeg",
+                    "FileName" : "feature_1920x600_NMD_BG.jpg",
+                    "FileExtension" : "jpg",
+                    "Size" : 195128,
+                    "Width" : 0,
+                    "Height" : 0
+                  },
+                  "Folder" : {
+                    "PublicationId" : "tcm:0-70-1",
+                    "Id" : "tcm:70-6124-2",
+                    "Title" : "statement_qa"
+                  },
+                  "Categories" : [],
+                  "Version" : 2,
+                  "Publication" : {
+                    "Id" : "tcm:0-70-1",
+                    "Title" : "500 adidas site COM"
+                  },
+                  "OwningPublication" : {
+                    "Id" : "tcm:0-5-1",
+                    "Title" : "200 Global Content"
+                  },
+                  "Id" : "tcm:70-86450",
+                  "Title" : "Background Image"
+                }
+                ],
+                "FieldType" : 5,
+                "XPath" : "tcm:Content/custom:Content/custom:mobile_image",
+                "KeywordValues" : []
+              }
+            },
+            "MetadataFields" : {},
+            "ComponentType" : 1,
+            "Folder" : {
+              "PublicationId" : "tcm:0-70-1",
+              "Id" : "tcm:70-6124-2",
+              "Title" : "statement_qa"
+            },
+            "Categories" : [{
+              "Keywords" : [],
+              "Id" : "tcm:70-6084-512",
+              "Title" : "External Video Type"
+            }
+            ],
+            "Version" : 1,
+            "Publication" : {
+              "Id" : "tcm:0-70-1",
+              "Title" : "500 adidas site COM"
+            },
+            "OwningPublication" : {
+              "Id" : "tcm:0-5-1",
+              "Title" : "200 Global Content"
+            },
+            "Id" : "tcm:70-86451",
+            "Title" : "Asset Background Image"
+          }
+          ],
+          "FieldType" : 6,
+          "XPath" : "tcm:Content/custom:Content/custom:background_media",
+          "KeywordValues" : []
+        }
+      },
+      "MetadataFields" : {},
+      "ComponentType" : 1,
+      "Folder" : {
+        "PublicationId" : "tcm:0-70-1",
+        "Id" : "tcm:70-6166-2",
+        "Title" : "statement"
+      },
+      "Categories" : [],
+      "Version" : 3,
+      "Publication" : {
+        "Id" : "tcm:0-70-1",
+        "Title" : "500 adidas site COM"
+      },
+      "OwningPublication" : {
+        "Id" : "tcm:0-5-1",
+        "Title" : "200 Global Content"
+      },
+      "Id" : "tcm:70-86769",
+      "Title" : "Statement - Background Image"
+    },
+    "ComponentTemplate" : {
+      "OutputFormat" : "HTML Fragment",
+      "RevisionDate" : "2016-04-07T12:35:48.32",
+      "MetadataFields" : {
+        "viewName" : {
+          "Name" : "viewName",
+          "Values" : ["statement/statement_left"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "KeywordValues" : []
+        },
+        "region" : {
+          "Name" : "region",
+          "Values" : ["main"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "KeywordValues" : []
+        }
+      },
+      "Folder" : {
+        "PublicationId" : "tcm:0-70-1",
+        "Id" : "tcm:70-6125-2",
+        "Title" : "Statement"
+      },
+      "Publication" : {
+        "Id" : "tcm:0-70-1",
+        "Title" : "500 adidas site COM"
+      },
+      "OwningPublication" : {
+        "Id" : "tcm:0-6-1",
+        "Title" : "200 Master Design"
+      },
+      "Id" : "tcm:70-86471-32",
+      "Title" : "Statement - Text Left"
+    },
+    "IsDynamic" : false,
+    "OrderOnPage" : 0
+  }, {
+    "Component" : {
+      "LastPublishedDate" : "0001-01-01T00:00:00",
+      "RevisionDate" : "2016-03-28T10:08:59",
+      "Schema" : {
+        "Folder" : {
+          "PublicationId" : "tcm:0-70-1",
+          "Id" : "tcm:70-6055-2",
+          "Title" : "Core"
+        },
+        "RootElementName" : "Content",
+        "Publication" : {
+          "Id" : "tcm:0-70-1",
+          "Title" : "500 adidas site COM"
+        },
+        "Id" : "tcm:70-86411-8",
+        "Title" : "Core Schema - Statement"
+      },
+      "Fields" : {
+        "title" : {
+          "Name" : "title",
+          "Values" : ["STATEMENT - NO BACKGROUND IMG"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:title",
+          "KeywordValues" : []
+        },
+        "statement_text" : {
+          "Name" : "statement_text",
+          "Values" : ["<div xmlns=\"http://www.w3.org/1999/xhtml\">The workout doesn't begin or end with the class.</div><div xmlns=\"http://www.w3.org/1999/xhtml\">The training session isn't restricted to the studio.</div><div xmlns=\"http://www.w3.org/1999/xhtml\">Life is the game. The city is your playground</div>"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:statement_text",
+          "KeywordValues" : []
+        },
+        "closing_text" : {
+          "Name" : "closing_text",
+          "Values" : ["Closing text"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 2,
+          "XPath" : "tcm:Content/custom:Content/custom:closing_text",
+          "KeywordValues" : []
+        }
+      },
+      "MetadataFields" : {},
+      "ComponentType" : 1,
+      "Folder" : {
+        "PublicationId" : "tcm:0-70-1",
+        "Id" : "tcm:70-6166-2",
+        "Title" : "statement"
+      },
+      "Categories" : [],
+      "Version" : 1,
+      "Publication" : {
+        "Id" : "tcm:0-70-1",
+        "Title" : "500 adidas site COM"
+      },
+      "OwningPublication" : {
+        "Id" : "tcm:0-5-1",
+        "Title" : "200 Global Content"
+      },
+      "Id" : "tcm:70-86770",
+      "Title" : "Statement - No Background Image"
+    },
+    "ComponentTemplate" : {
+      "OutputFormat" : "HTML Fragment",
+      "RevisionDate" : "2016-04-07T12:35:55.32",
+      "MetadataFields" : {
+        "viewName" : {
+          "Name" : "viewName",
+          "Values" : ["statement/statement_right"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "KeywordValues" : []
+        },
+        "region" : {
+          "Name" : "region",
+          "Values" : ["main"],
+          "NumericValues" : [],
+          "DateTimeValues" : [],
+          "LinkedComponentValues" : [],
+          "FieldType" : 0,
+          "KeywordValues" : []
+        }
+      },
+      "Folder" : {
+        "PublicationId" : "tcm:0-70-1",
+        "Id" : "tcm:70-6125-2",
+        "Title" : "Statement"
+      },
+      "Publication" : {
+        "Id" : "tcm:0-70-1",
+        "Title" : "500 adidas site COM"
+      },
+      "OwningPublication" : {
+        "Id" : "tcm:0-6-1",
+        "Title" : "200 Master Design"
+      },
+      "Id" : "tcm:70-86472-32",
+      "Title" : "Statement - Text Right"
+    },
+    "IsDynamic" : false,
+    "OrderOnPage" : 0
+  }
+  ],
+  "StructureGroup" : {
+    "PublicationId" : "tcm:0-70-1",
+    "Id" : "tcm:70-6126-4",
+    "Title" : "statement"
+  },
+  "Categories" : [],
+  "Version" : 3,
+  "Publication" : {
+    "Id" : "tcm:0-70-1",
+    "Title" : "500 adidas site COM"
+  },
+  "OwningPublication" : {
+    "Id" : "tcm:0-70-1",
+    "Title" : "500 adidas site COM"
+  },
+  "Id" : "tcm:70-87900-64",
+  "Title" : "sf statement"
+}
