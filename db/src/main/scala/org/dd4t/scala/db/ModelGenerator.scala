@@ -23,22 +23,26 @@ object ModelGenerator {
 
     val codegenFuture = modelFuture.map( model => new SourceCodeGenerator(model) {
 
+      override val ddlEnabled = false
+
       override def Table = new Table(_) {
-        println("find a table " + model.name)
+
+        override def TableClass = new TableClassDef {
+          override def star = {
+            s"def * = ???"
+          }
+          override def option = {
+            s"def ? = ???"
+          }
+
+        }
         // disable entity class generation and mapping
-        override def EntityType = new EntityType{
-          override def classEnabled = false
+        override lazy val EntityType = new EntityType{
+          override val classEnabled = false
         }
 
-        override def Column = new Column(_) {
-          override def rawType = {
-            var res = super.rawType
-            println(model.name + " " + model.tpe + " " + res.getClass)
-            if (model.tpe == "scala.math.BigDecimal") {
-              println("cambiado")
-              "Int"
-            } else res
-          }
+        override lazy val PlainSqlMapper = new PlainSqlMapper{
+          override val enabled = false
         }
       }
     })
@@ -56,8 +60,6 @@ object ModelGenerator {
       case error => println("error")
     }
 
-    //import scala.concurrent.duration._
-    //Await.result(codegenFuture, 10000 millis)
 
     codegenFuture.onComplete {
       case _ => {
@@ -69,17 +71,8 @@ object ModelGenerator {
       wait
     }
 
-    println("finish")
+    println("finish remember add implicit def string2BigDecimal(value: String) = new scala.math.BigDecimal(new java.math.BigDecimal(value))")
 
-    /*
-    slick.codegen.SourceCodeGenerator.main(
-      Array("slick.driver.H2Driver",
-        "org.h2.Driver",
-        "jdbc:h2:mem:test;MODE=ORACLE;INIT=create schema if not exists test\\;runscript from 'classpath:db/CD_BROKER_TABLES.sql'",
-        "db/src/main/scala/",
-        "org.dd4t.scala.db.model")
-    )
-    */
   }
 
 }
